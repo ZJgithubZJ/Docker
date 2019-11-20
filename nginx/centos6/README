@@ -1,0 +1,2 @@
+启动指令：
+docker run -d -p 80:80 --name nginx6 -v /docker/nginx6/conf/nginx.conf:/usr/local/nginx/conf/nginx.conf -v /docker/nginx6/logs:/usr/local/nginx/logs -v /docker/nginx6/webapp:/usr/local/nginx/html nginx:test6
