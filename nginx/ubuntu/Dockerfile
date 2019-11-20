@@ -10,5 +10,4 @@ RUN chmod 755 /run.sh && echo  'Asia/Shanghai' > /etc/timezone
 VOLUME ["/etc/nginx/sites-enabled","/etc/nginx/certs","/etc/nginx/conf.d","/var/log/nginx"]
 WORKDIR /etc/nginx
 EXPOSE 80
-EXPOSE 443
 CMD ["/run.sh"]
