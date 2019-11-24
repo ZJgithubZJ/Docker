@@ -1,0 +1,2 @@
+该镜像需要先在真机创建/app/sdo/nginx/wwwroot目录，并拉取改项目代码
+启动指令：docker run -d -p 80:80 --name xnhdgm -v /docker/gm/conf/nginx.conf:/usr/local/nginx/conf/nginx.conf -v /docker/gm/logs/nginx:/usr/local/nginx/logs -v /docker/gm/logs/php:/var/log/php-fpm -v /app/sdo/nginx/wwwroot:/app/sdo/nginx/wwwroot gm:test
