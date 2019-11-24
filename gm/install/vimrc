@@ -1,0 +1,48 @@
+
+"设置语言和编码
+let C="zh_CN.UTF-8"
+set fileencodings=utf-8,chinese,latin-1
+set termencoding=utf-8
+set encoding=utf-8
+
+"检测文件类型
+filetype on
+
+"载入文件类型插件
+filetype plugin on
+
+"为特定文件类型载入相关缩进文件
+filetype indent on
+
+"使用配色方案
+colorscheme desert
+
+"开启语法高亮
+syntax enable
+syntax on
+
+"粘贴时保持格式
+set paste
+
+"设置tab宽度为4
+set tabstop=4
+set softtabstop=4
+
+"设置缩进的空格数为4
+set shiftwidth=4
+
+"自动缩进
+set autoindent
+
+"特别为c/c++提供的自动缩进
+set cindent
+
+"显示行号
+set number
+
+"高亮搜索项
+set hlsearch
+
+"右下角显示光标位置
+set ruler
+
