@@ -1,8 +1,0 @@
-[24-Nov-2019 06:01:37] NOTICE: fpm is running, pid 16
-[24-Nov-2019 06:01:38] NOTICE: ready to handle connections
-[24-Nov-2019 06:01:39] ERROR: unable to bind listening socket for address '127.0.0.1:9000': Address already in use (98)
-[24-Nov-2019 06:01:39] ERROR: FPM initialization failed
-[24-Nov-2019 06:01:41] ERROR: unable to bind listening socket for address '127.0.0.1:9000': Address already in use (98)
-[24-Nov-2019 06:01:41] ERROR: FPM initialization failed
-[24-Nov-2019 06:01:44] ERROR: unable to bind listening socket for address '127.0.0.1:9000': Address already in use (98)
-[24-Nov-2019 06:01:44] ERROR: FPM initialization failed
